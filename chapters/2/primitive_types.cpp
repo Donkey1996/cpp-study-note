@@ -19,5 +19,10 @@ int main()
     double d = i;
     std::cout << "assigning int to double: " << d << std::endl;
 
+    unsigned char c = -188;
+    std::cout << "assigning a negative number to unsigned char: " << c << std::endl;
+
+    signed char s = 74;
+    std::cout << "assigning a negative number to signed char: " << s << std::endl;
 
 }
