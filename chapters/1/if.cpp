@@ -6,8 +6,8 @@ int main()
     if (i % 2 == 0)
     {
         std::cout << "Even" << std::endl;
-    } 
-    else 
+    }
+    else
     {
         std::cout << "Odd" << std::endl;
     }
