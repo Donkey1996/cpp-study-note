@@ -41,6 +41,10 @@ int main()
         std::cout << "Unsigned " << u << std::endl;
     }
     // generally just dont use unsigned
+    unsigned int u1 = 42, u2 = 10;
+    std::cout << "unsigned int u1 - u2: " << u1 - u2 << std::endl;
+    std::cout << "unsigned int u2 - u1: " << u2 - u1 << std::endl;
+    // This is wrapped around and for 32 bit int it's 4294967264
 
     //Literals
     int l_1 = 0x15; //hexadecimal

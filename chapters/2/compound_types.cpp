@@ -134,6 +134,11 @@ int main()
 
     // 2.3.3 Understanding Compound type declarations
     // You can define multiple compound types in a single definition
+
+    int* p1, p2;
+    std::cout << "p1: " << p1 << ". p2: " << p2 << std::endl;
+    // p1 is a pointer to an integer, p2 is an integer
+
     int i3 = 1, *p = &i3, &r = i3;
     cout << "i3: " << i3 << ", p: " << *p << ", r: " << r << endl;
     // warnings: pointers need to be declared for each one
