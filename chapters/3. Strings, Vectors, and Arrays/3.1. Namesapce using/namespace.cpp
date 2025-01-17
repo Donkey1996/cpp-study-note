@@ -1,5 +1,6 @@
 #include <iostream>
 
+//for each name we use there should be a using declaration.
 using std::cin;
 using std::cout;
 using std::endl;
